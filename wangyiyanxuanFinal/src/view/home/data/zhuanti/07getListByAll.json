@@ -1,0 +1,68 @@
+{
+    "code": "200",
+    "data": {
+        "pagination": {
+            "page": 7,
+            "size": 20,
+            "totalPage": 7,
+            "total": 125
+        },
+        "result": [
+            {
+                "topicId": 20160107,
+                "title": "严选纯正羊绒羊毛",
+                "subtitle": "5只山羊绒织就品质",
+                "priceInfo": 79,
+                "scenePicUrl": "http://yanxuan.nosdn.127.net/7b9f1142574381d5c219be0da598dc48.jpg",
+                "itemPicUrl": "http://yanxuan.nosdn.127.net/7b9f1142574381d5c219be0da598dc48.jpg",
+                "topicTemplateId": 0,
+                "topicTagId": 0,
+                "commentSwitch": false
+            },
+            {
+                "topicId": 20151230,
+                "title": "环球坚果直供",
+                "subtitle": "只供新果，只供新果，只供新果",
+                "priceInfo": 25,
+                "scenePicUrl": "http://yanxuan.nosdn.127.net/c06609c57ea861a64016c3863691d0bb.jpg",
+                "itemPicUrl": "http://yanxuan.nosdn.127.net/c06609c57ea861a64016c3863691d0bb.jpg",
+                "topicTemplateId": 0,
+                "topicTagId": 0,
+                "commentSwitch": false
+            },
+            {
+                "topicId": 20151030,
+                "title": "来自临安岛石镇的山核桃",
+                "subtitle": "五道工序挑选，粒粒珍贵",
+                "priceInfo": 39,
+                "scenePicUrl": "http://yanxuan.nosdn.127.net/8f35d406508ab7d297e234e431fa7367.jpg",
+                "itemPicUrl": "http://yanxuan.nosdn.127.net/8f35d406508ab7d297e234e431fa7367.jpg",
+                "topicTemplateId": 0,
+                "topicTagId": 0,
+                "commentSwitch": false
+            },
+            {
+                "topicId": 20151219,
+                "title": "补充维生素的健康零食",
+                "subtitle": "低脂高纤维，美味不发胖",
+                "priceInfo": 23.9,
+                "scenePicUrl": "http://yanxuan.nosdn.127.net/7a25fe0f0f67cd9173eb24a8fd807b9e.jpg",
+                "itemPicUrl": "http://yanxuan.nosdn.127.net/7a25fe0f0f67cd9173eb24a8fd807b9e.jpg",
+                "topicTemplateId": 0,
+                "topicTagId": 0,
+                "commentSwitch": false
+            },
+            {
+                "topicId": 20151029,
+                "title": "百里挑一 双宫茧长蚕丝",
+                "subtitle": "单丝长度1500米以上的优等品",
+                "priceInfo": 399,
+                "scenePicUrl": "http://yanxuan.nosdn.127.net/854700ff1e3205adf1c0e533c736558a.jpg",
+                "itemPicUrl": "http://yanxuan.nosdn.127.net/854700ff1e3205adf1c0e533c736558a.jpg",
+                "topicTemplateId": 0,
+                "topicTagId": 0,
+                "commentSwitch": false
+            }
+        ]
+    }
+}

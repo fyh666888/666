@@ -1,0 +1,276 @@
+/* 
+* @Author: weirui
+* @Date:   2016-12-12 21:02:24
+* @Last Modified by:   anchen
+* @Last Modified time: 2016-12-14 11:39:32
+*/
+body,html{
+    width: 100%;
+    height: 100%;
+    font-family: "microsoft yahei",simhei;
+    background: #ccc;
+}
+header{
+    width: 100%;
+    height: 1.22222rem;
+    background: pink;
+}
+.firstSwiper .swiper-container{
+    width: 100%;
+    height: 5.55556rem;
+    background: #fff;
+}
+.firstSwiper .swiper-wrapper{
+    width: 100%;
+    height: 100%;
+}
+ .firstSwiper .swiper-wrapper .swiper-slide img{
+    width: 100%;
+}
+
+/*nav*/
+
+nav{
+    width: 100%;
+    height: 2.41667rem;
+    padding: 0 0.58333rem;
+    background: #fff;
+}
+nav .nav-container{
+    width: 100%;
+    height: 100%;
+    display: flex;
+}
+nav .nav-container .nav-container-box{
+    flex-basis:20%;
+    display: flex;
+    flex-direction:column;
+    align-items:center;
+    justify-content:center;
+}
+.nav-container-box img{
+    width: .77778rem;
+    height: .77778rem;
+    margin-bottom: .16667rem;
+}
+.nav-container-box span{
+    line-height: 1;
+    font-size: .33333rem;
+    color: #333;
+}
+
+.pinpai{
+    width: 100%;
+    background: #f00;
+    margin:.27778rem 0;
+}
+.pinpaiTop{
+    height: 1.72222rem;
+    background: #fff;
+    display: flex;
+    justify-content:center;
+    align-items:center;
+}
+.pinpaiTop a{
+    font-size: .44444rem;
+    color: #333;
+    padding-right: 0.4rem;
+    background: url(../images/rightIcon.png) no-repeat right center;
+    background-size:contain;
+}
+
+.pinpaiBottom{
+    height: 6.72222rem;
+    background: purple;
+    overflow: hidden;
+}
+.pinpaiBottomLeft{
+    width: 50%;
+    float: left;
+    height: 100%;
+}
+
+.pinpaiBottomLeftTop{
+    height: 50%;
+}
+.pinpaiBottomLeftTop img{
+    width: 100%;
+    height: 100%;
+}
+.pinpaiBottomLeftBottom{
+    height: 50%;
+
+}
+.pinpaiBottomLeftBottom img{
+    width: 100%;
+    height: 100%;
+}
+.pinpaiBottomRight{
+    width: 50%;
+    float: right;
+}
+.pinpaiBottomRight img{
+    width: 100%;
+}
+
+/*新品首发*/
+.xinpin{
+    width: 100%;
+    background: #fff;
+    margin:.27778rem 0;
+}
+.xinpinBottom{
+    width: 100%;
+    overflow: hidden;
+    padding:0.5rem;
+}
+.xinpinBottom .xinpinList{
+    width: 50%;
+    float: left;
+}
+.xinpinBottom .xinpinList img{
+    width: 100%;
+}
+.xinpinBottom .xinpinList p{
+    font-size: .38889rem;
+    text-align: center;
+    white-space:nowrap; 
+    overflow:hidden; 
+    text-overflow:ellipsis;
+
+}
+.xinpinBottom .xinpinList .xinpinName{
+    padding: 0.25rem 0.25rem;
+    color: #333;
+}
+.xinpinBottom .xinpinList .xinpinPrice{
+    color: #b4282d;
+}
+
+
+/*人气推荐*/
+.renqi{
+    width: 100%;
+    background: #fff;
+    margin:.27778rem 0;
+}
+.renqiBottom{
+    width: 100%;
+    padding: 0 0.3rem;
+}
+.renqiBottom .renqiList{
+    width: 100%;
+    border-top:1px solid #ccc;
+    overflow: hidden;
+}
+.renqiBottom .renqiList img{
+    float: left;
+    width: 4.02778rem;
+}
+.renqiBottom .renqiList p{
+    font-size: .38889rem;
+    line-height: .66667rem;
+    color: #333;
+}
+.renqiBottom .renqiList .popularName{
+    margin-top: 0.6rem;
+}
+.renqiBottom .renqiList .popularPrice{
+    padding: 0.2rem;
+    color: #b4282d;
+}
+
+
+/*精选swiper*/
+.jingxuan{
+    background: #fff;
+     width: 100%;
+    margin:.27778rem 0;
+}
+.jingxuan .swiper-container{
+    width: 95%;
+    background: #fff;
+    margin: 0 auto;
+    /*caozuogaodu*/
+}
+.jingxuan .swiper-wrapper{
+    width: 100%;
+    height: 100%;
+}
+ .jingxuan .swiper-wrapper .swiper-slide img{
+    width: 100%;
+}
+.jingxuan .swiper-wrapper .swiper-slide{
+    padding-bottom: 0.4rem;
+}
+.jingxuanImg{
+    margin-bottom:0.3rem;
+}  
+.jingxuanTitle,.jingxuanSubtitle{
+    font-size: .38889rem;
+    line-height: .56667rem; 
+    color: #888;
+} 
+.jingxuanPrice{
+    margin-left: 0.3rem;
+    color: #b4282d;
+}
+
+
+/*cateTop*/
+.cateTop{
+    height: 1.72222rem;
+    background: #fff;
+    display: flex;
+    justify-content:center;
+    align-items:center;
+}
+.cateHome{
+    background: #fff;
+    width: 100%;
+    margin:.27778rem 0; 
+}
+.cateTop a{
+    font-size: .44444rem;
+    color: #333;
+}
+.cateBottom{
+    display: flex;
+    flex-wrap:wrap;
+
+}
+.cateBottom .cateList:nth-child(2n+2){
+    border-right: none;
+}
+.cateList {
+    flex-basis:50%;
+    border: 1px solid #ccc;
+    border-bottom: none;
+    border-left: none;
+
+}
+.cateList img{
+    width: 100%;
+}
+.cateListName,.cateListPrice{
+    font-size: .38889rem;
+    line-height: .56667rem; 
+    color: #888;
+    text-align: center;
+}
+.cateListPrice{
+    color: #b4282d;
+}
+
+.backTop{
+    display: inline-block;
+    width: 1.13889rem;
+    height: 1.13889rem;
+    border-radius: 50%;
+    background: url(../images/backTop.png) no-repeat;
+    background-size: contain;
+    position: fixed;
+    bottom:1rem;
+    right:1rem;
+    display: none;
+}

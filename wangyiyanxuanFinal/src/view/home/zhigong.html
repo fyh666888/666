@@ -1,0 +1,8 @@
+
+<link rel="stylesheet" href="src/view/home/css/zhigong.css">
+<ul ng-controller="zhigong" class="zhigongContainer">
+    <li ng-repeat = "x in zhigongArr" class="zhigonglist">
+        <img ng-src={{x.appListPicUrl}} alt="">
+        <p>{{x.name}}</p>
+    </li>
+</ul>

@@ -1,0 +1,33 @@
+.assortment>.fixnav{
+    width: 10rem;
+    height: 1.125rem;
+    position: fixed;
+    top:1.22rem;  
+    overflow-y: hidden;
+    padding: 0 0.18056rem;
+    z-index: 30;
+    background: #fff;
+}
+.assortment>.fixnav>ul{
+    display: flex;
+    width: 15.12rem;
+    height: 1.125rem;
+    overflow-x:auto; 
+}
+.assortment>.fixnav>ul>li{
+    width: 1.68rem;
+    padding:0 0.25rem;
+    height: 1.125rem;
+}
+.navbarA1{
+    font-size: .38889rem;
+    color:rgb(51, 51, 51);
+    display: block;
+    height: 100%;
+    text-align: center;
+    line-height: 1.125rem;
+}
+.navbarA2{
+    color:#ab2b2b;
+    border-bottom:3px solid #ab2b2b;
+}

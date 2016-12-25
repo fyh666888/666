@@ -1,0 +1,90 @@
+@charset "utf-8";
+.other{
+    width: 100%;
+}
+.other>.banner{
+    width: 100%;
+    height: 3.88889rem;
+    background: url(http://yanxuan.nosdn.127.net/c031900229c9f056bf65de64cc600522.jpg);
+    background-size: 12rem 3.88889rem;
+    background-repeat: no-repeat;
+    background-position: -1rem 0;
+}
+.other>.banner>section{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content:center;
+    align-items:center;
+    flex-direction:column;
+    background: rgba(0,0,0,0.2);
+}
+.other>.banner>section>p{
+    color: white;
+    font-size: 0.5rem;
+}
+.other>.banner>section>span{
+    background: white;
+    display: inline-block;
+    width: 20%;
+    height: .06rem;
+    margin-top: 0.05rem;
+}
+.other .othheader{
+    background: #f4f4f4;
+    display: flex;
+    justify-content:center;
+    align-items:center;
+    flex-direction:column;
+    height: 1.94444rem;
+}
+.other .othheader>p{
+    margin-bottom: .25rem;
+    color: #999;
+    font-size: .41667rem;
+}
+.other .othheader>span{
+    color: #999;
+    font-size: .33333rem;
+}
+.othmainUl{
+    display: flex;
+    width: 10rem;
+    flex-wrap:wrap;
+    background: #f4f4f4;
+}
+.othmainUlLi{
+    width: 5rem;
+    height: 6.79rem;
+    background-color: #fff;
+    padding: 0 0 .44444rem;
+    overflow: hidden;
+}
+.othmainUlLi:nth-of-type(2n+1){
+    border-bottom: 1px solid #ddd;
+    border-right: 1px solid #ddd;
+}
+.othmainUlLi:nth-of-type(2n){
+    border-bottom: 1px solid #ddd;
+}
+.othmainUlLi .img{
+    padding: .19444rem .41667rem 0;
+}
+.othmainUlLi .img>img{
+    width: 4.167rem;
+}
+.othmainUlLi .name{
+    margin: .15278rem auto .29167rem;
+    padding: 0 .27778rem;
+    line-height: .41667rem;
+    text-align: center;
+    font-size: .38889rem;
+    overflow: hidden;
+    color: #333;
+}
+.othmainUlLi .price{
+    line-height: 1;
+    font-size: .38889rem;
+    text-align: center;
+    color: #b4282d;
+}

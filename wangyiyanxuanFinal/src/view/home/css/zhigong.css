@@ -1,0 +1,26 @@
+/* 
+* @Author: anchen
+* @Date:   2016-12-14 14:47:49
+* @Last Modified by:   anchen
+* @Last Modified time: 2016-12-14 15:01:52
+*/
+.zhigongContainer{
+    width: 100%;
+    background: #fff;
+}
+.zhigonglist{
+    margin-bottom: 2px;
+    position: relative;
+}
+.zhigonglist img{
+    width: 100%;
+}
+.zhigonglist p{
+    font-size: .5rem;
+    position: absolute;
+    top:50%;
+    left: 50%;
+    transform:translateX(-50%);
+    font-weight: bold;
+    color: #fff;
+}

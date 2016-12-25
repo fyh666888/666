@@ -1,0 +1,27 @@
+<div class="baby">
+    <div class="banner">
+       <section>
+            <p>爱，从心开始</p>
+            <span></span>
+       </section>
+    </div>
+    <main ng-controller="babctrl">
+        <section ng-repeat="x in pro">
+            <div class="babheader">
+                <p>{{x.category.name}}</p>
+                <span>{{x.category.frontName}}</span>
+            </div>
+            <div class="babmain">
+                <ul class="babmainUl">
+                    <li ng-repeat="y in x.itemList" class="babmainUlLi">
+                      <a href="">
+                        <div class="img"><img src="{{y.primaryPicUrl}}" alt=""></div>
+                        <div class="name">{{y.name}}</div>
+                        <div class="price">￥{{y.retailPrice}}</div>
+                      </a>
+                    </li>
+                </ul>
+            </div>
+        </section>
+    </main>
+</div>

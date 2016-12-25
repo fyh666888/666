@@ -1,0 +1,27 @@
+<div class="cleaning">
+    <div class="banner">
+       <section>
+            <p>亲肤之物，严选天然</p>
+            <span></span>
+       </section>
+    </div>
+    <main ng-controller="clectrl">
+        <section ng-repeat="x in pro">
+            <div class="cleheader">
+                <p>{{x.category.name}}</p>
+                <span>{{x.category.frontName}}</span>
+            </div>
+            <div class="clemain">
+                <ul class="clemainUl">
+                    <li ng-repeat="y in x.itemList" class="clemainUlLi">
+                      <a href="">
+                        <div class="img"><img src="{{y.primaryPicUrl}}" alt=""></div>
+                        <div class="name">{{y.name}}</div>
+                        <div class="price">￥{{y.retailPrice}}</div>
+                      </a>
+                    </li>
+                </ul>
+            </div>
+        </section>
+    </main>
+</div>

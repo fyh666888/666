@@ -1,0 +1,28 @@
+<link rel="stylesheet" href="src/view/assortment/paths/01furnshing/css/furnshing.css">
+<div class="furnshing">
+    <div class="banner">
+       <section>
+            <p>回家，放松身心</p>
+            <span></span>
+       </section>
+    </div>
+    <main ng-controller="furnctrl">
+        <section ng-repeat="x in pro">
+            <div class="funheader">
+                <p>{{x.category.name}}</p>
+                <span>{{x.category.frontName}}</span>
+            </div>
+            <div class="funmain">
+                <ul class="funmainUl">
+                    <li ng-repeat="y in x.itemList" class="funmainUlLi">
+                      <a href="">
+                        <div class="img"><img src="{{y.primaryPicUrl}}" alt=""></div>
+                        <div class="name">{{y.name}}</div>
+                        <div class="price">￥{{y.retailPrice}}</div>
+                      </a>
+                    </li>
+                </ul>
+            </div>
+        </section>
+    </main>
+</div>

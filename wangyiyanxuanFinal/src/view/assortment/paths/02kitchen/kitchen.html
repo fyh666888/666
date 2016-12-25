@@ -1,0 +1,27 @@
+<div class="kitchen">
+    <div class="banner">
+       <section>
+            <p>爱，囿于厨房</p>
+            <span></span>
+       </section>
+    </div>
+    <main ng-controller="kitctrl">
+        <section ng-repeat="x in pro">
+            <div class="kitheader">
+                <p>{{x.category.name}}</p>
+                <span>{{x.category.frontName}}</span>
+            </div>
+            <div class="kitmain">
+                <ul class="kitmainUl">
+                    <li ng-repeat="y in x.itemList" class="kitmainUlLi">
+                      <a href="">
+                        <div class="img"><img src="{{y.primaryPicUrl}}" alt=""></div>
+                        <div class="name">{{y.name}}</div>
+                        <div class="price">￥{{y.retailPrice}}</div>
+                      </a>
+                    </li>
+                </ul>
+            </div>
+        </section>
+    </main>
+</div>

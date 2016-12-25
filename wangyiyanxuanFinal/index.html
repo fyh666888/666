@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="TemplateProject">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0,user-scalable=0">
+	<title>网易严选 - 以严谨的态度，为中国消费者甄选天下优品</title>
+	<link rel="shortcut icon" href="http://m.you.163.com/favicon.ico" />
+	<link rel="stylesheet" type="text/css" href="src/common/reset.css" />
+	<link rel="stylesheet" type="text/css" href="src/common/main.css" />
+</head>
+<body>
+
+	<div class="head" ng-controller="headCtrl">
+		<header id="header">
+			<section>
+				<div ng-class="myClass" ng-click="change()"></div>
+				<a ui-sref="home">
+					<span class="header-center"></span>
+				</a>
+				<div class="right">
+					<div class="header search"><a ui-sref="search"></a></div>
+					<div class="header cart"><a ui-sref="cart"></a></div>
+				</div>
+			</section>
+		</header>
+		<nav id="nav" ng-hide="flag">
+			<div><a ui-sref="home"><i></i><span>首页</span></a></div>
+			<div><a ui-sref="special"><i></i><span>专题</span></a></div>
+			<div><a ui-sref="assortment"><i></i><span>分类</span></a></div>
+			<div><a ui-sref="mine"><i></i><span>个人中心</span></a></div>
+		</nav>
+	</div>
+
+	<div ui-view class="main"></div>
+
+	<script src="node_modules/angular/angular.min.js"></script>
+	<script src="node_modules/angular-ui-router/release/angular-ui-router.min.js"></script>
+	<script src="node_modules/angular-css/angular-css.min.js"></script>
+	<script src="src/view/home/js/swiper.js"></script>
+
+	<script src="index.js"></script>
+	<script src="src/view/home/home.js"></script>
+	<script src="src/view/special/special.js"></script>
+	<script src="src/view/assortment/assortment.js"></script>
+	<script src="src/view/mine/mine.js"></script>
+	<script src="src/view/cart/cart.js"></script>
+
+	<script src="src/view/assortment/paths/01furnshing/js/furnshing.js"></script>
+	<script src="src/view/assortment/paths/02kitchen/js/kitchen.js"></script>
+	<script src="src/view/assortment/paths/03accessories/js/accessories.js"></script>
+	<script src="src/view/assortment/paths/04cloth/js/cloth.js"></script>
+	<script src="src/view/assortment/paths/05cleaning/js/cleaning.js"></script>
+	<script src="src/view/assortment/paths/06baby/js/baby.js"></script>
+	<script src="src/view/assortment/paths/07groceries/js/groceries.js"></script>
+	<script src="src/view/assortment/paths/08food/js/food.js"></script>
+	<script src="src/view/assortment/paths/09other/js/other.js"></script>
+
+</body>
+</html>

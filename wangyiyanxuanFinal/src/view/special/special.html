@@ -1,0 +1,44 @@
+<div ng-app="specialPage" class="main_spe" my-touchmove="touch()">
+	<!--主体部分-->
+	<ul class="m_container">
+		<a class="m_a" href="javascript:void(0)" ng-repeat='x in data'>
+			<li class="m_li">
+				<!--图片部分-->
+				<div class="m_pic">
+					<img class="m_picImg" ng-src="{{x.itemPicUrl}}"/>
+				</div>
+				<!--商品信息-->
+				<div class="m_info">
+					<!--商品描述-->
+					<div class="info">
+						<p class="title">{{x.title}}</p>
+						<div class="title_subtitle">
+							<span class="subtitle">{{x.subtitle}}</span>
+						</div>
+					</div>
+					<!--价格信息-->
+					<div class="price">
+						<span class="priceInfo">{{x.priceInfo}}</span>
+						<span class="unit">元起</span>
+					</div>
+				</div>
+			</li>
+		</a>
+	</ul>
+	<!--更多内容,敬请期待-->
+	<p class="lastPage">更多内容,敬请期待</p>
+	<!--返回顶部-->
+	<i class="goTop" ng-click="backTop()"></i>
+	<!--上下翻页-->
+	<div class="m_page">
+		<div class="m_pre" ng-click="pre()">上一页</div>
+		<div class="m_next" ng-click="next()">下一页</div>
+	</div>
+</div>
+<!--<div class="wrap">
+	<div class="row">
+		<img src="//nos.netease.com/yanxuan/10f65469012e0272d31e24d812e0ed72.jpg" alt="" />
+		<img src="//nos.netease.com/yanxuan/98c9032a1826af2286a23c3ceef80bc7.jpg" alt="" />
+		<img src="//nos.netease.com/yanxuan/400d85ecc806375e993c595c9d1c4760.jpg" alt="" />
+	</div>
+</div>-->

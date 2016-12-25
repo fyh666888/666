@@ -1,0 +1,233 @@
+{
+    "code": "200",
+    "data": {
+        "pagination": {
+            "page": 2,
+            "size": 20,
+            "totalPage": 7,
+            "total": 125
+        },
+        "result": [
+            {
+                "topicId": 20161031,
+                "title": "甄选家首次回礼",
+                "subtitle": "免费领1500份抹茶煎饼",
+                "priceInfo": 49,
+                "scenePicUrl": "http://yanxuan.nosdn.127.net/889283265541fe8d7831d9025989651f.jpg",
+                "itemPicUrl": "http://yanxuan.nosdn.127.net/889283265541fe8d7831d9025989651f.jpg",
+                "topicTemplateId": 0,
+                "topicTagId": 0,
+                "commentSwitch": true
+            },
+            {
+                "topicId": 20161026,
+                "title": "治愈生活的一口甜",
+                "subtitle": "美味下午茶小食",
+                "priceInfo": 16,
+                "scenePicUrl": "http://yanxuan.nosdn.127.net/ae224fa9a0a88a62151dccefe632437a.jpg",
+                "itemPicUrl": "http://yanxuan.nosdn.127.net/ae224fa9a0a88a62151dccefe632437a.jpg",
+                "topicTemplateId": 0,
+                "topicTagId": 0,
+                "commentSwitch": true
+            },
+            {
+                "topicId": 20161021,
+                "title": "这只环保袋，请你用131次",
+                "subtitle": "环保主义者的自我修养",
+                "priceInfo": 29,
+                "scenePicUrl": "http://yanxuan.nosdn.127.net/6d9eea57bc7f84f895f4363b6b47e971.jpg",
+                "itemPicUrl": "http://yanxuan.nosdn.127.net/6d9eea57bc7f84f895f4363b6b47e971.jpg",
+                "topicTemplateId": 0,
+                "topicTagId": 0,
+                "commentSwitch": true
+            },
+            {
+                "topicId": 20161019,
+                "title": "理想运动袜专业指南",
+                "subtitle": "纯棉/羊毛/兔毛袜",
+                "priceInfo": 29,
+                "scenePicUrl": "http://yanxuan.nosdn.127.net/2c969c6a8cb1664903d5dd65f3ab966a.jpg",
+                "itemPicUrl": "http://yanxuan.nosdn.127.net/2c969c6a8cb1664903d5dd65f3ab966a.jpg",
+                "topicTemplateId": 0,
+                "topicTagId": 0,
+                "commentSwitch": true
+            },
+            {
+                "topicId": 20161014,
+                "title": "被子就像老公,睡了才知道好",
+                "subtitle": "床品起居暖冬好物",
+                "priceInfo": 29,
+                "scenePicUrl": "http://yanxuan.nosdn.127.net/4202598c128cfee89fcb69d1c179a117.jpg",
+                "itemPicUrl": "http://yanxuan.nosdn.127.net/4202598c128cfee89fcb69d1c179a117.jpg",
+                "topicTemplateId": 0,
+                "topicTagId": 0,
+                "commentSwitch": true
+            },
+            {
+                "topicId": 20161012,
+                "title": "懂它，比懂女票的心更重要",
+                "subtitle": "来自Levis/爱慕制造商",
+                "priceInfo": 39,
+                "scenePicUrl": "http://yanxuan.nosdn.127.net/31e12bd1b4cf653141093a8bcd7acac2.jpg",
+                "itemPicUrl": "http://yanxuan.nosdn.127.net/31e12bd1b4cf653141093a8bcd7acac2.jpg",
+                "topicTemplateId": 0,
+                "topicTagId": 0,
+                "commentSwitch": true
+            },
+            {
+                "topicId": 20161009,
+                "title": "换季买包正当时",
+                "subtitle": "你的优雅帅气，我承“包”了",
+                "priceInfo": 29,
+                "scenePicUrl": "http://yanxuan.nosdn.127.net/86877367fcf874ce5644224ae8a8a638.jpg",
+                "itemPicUrl": "http://yanxuan.nosdn.127.net/86877367fcf874ce5644224ae8a8a638.jpg",
+                "topicTemplateId": 0,
+                "topicTagId": 0,
+                "commentSwitch": true
+            },
+            {
+                "topicId": 20160930,
+                "title": "10月篇 本月必买的好物",
+                "subtitle": "出游必买系列",
+                "priceInfo": 12.5,
+                "scenePicUrl": "http://yanxuan.nosdn.127.net/2e71b4065f0faf2586b6d66a49a98acd.jpg",
+                "itemPicUrl": "http://yanxuan.nosdn.127.net/2e71b4065f0faf2586b6d66a49a98acd.jpg",
+                "topicTemplateId": 0,
+                "topicTagId": 0,
+                "commentSwitch": true
+            },
+            {
+                "topicId": 20160928,
+                "title": "职场人的一天——女士篇",
+                "subtitle": "OL必备好物",
+                "priceInfo": 9.9,
+                "scenePicUrl": "http://yanxuan.nosdn.127.net/5baa17a47a8971a27ae462774d5e32c1.jpg",
+                "itemPicUrl": "http://yanxuan.nosdn.127.net/5baa17a47a8971a27ae462774d5e32c1.jpg",
+                "topicTemplateId": 0,
+                "topicTagId": 0,
+                "commentSwitch": true
+            },
+            {
+                "topicId": 20160926,
+                "title": "职场人的一天——男士篇",
+                "subtitle": "型男必备好物",
+                "priceInfo": 19.9,
+                "scenePicUrl": "http://yanxuan.nosdn.127.net/05a354b180eff234c901317f38205bb6.jpg",
+                "itemPicUrl": "http://yanxuan.nosdn.127.net/05a354b180eff234c901317f38205bb6.jpg",
+                "topicTemplateId": 0,
+                "topicTagId": 0,
+                "commentSwitch": true
+            },
+            {
+                "topicId": 20160921,
+                "title": "短途出游的减法方案",
+                "subtitle": "衣用住行超全指南",
+                "priceInfo": 15,
+                "scenePicUrl": "http://yanxuan.nosdn.127.net/56040c059be894c5f9500cfeae5ecefc.jpg",
+                "itemPicUrl": "http://yanxuan.nosdn.127.net/56040c059be894c5f9500cfeae5ecefc.jpg",
+                "topicTemplateId": 0,
+                "topicTagId": 0,
+                "commentSwitch": true
+            },
+            {
+                "topicId": 20160919,
+                "title": "严选灯具新品首发",
+                "subtitle": "日式优雅台灯/落地灯",
+                "priceInfo": 199,
+                "scenePicUrl": "http://yanxuan.nosdn.127.net/63f6f69a3e62fc058de8d56368938025.jpg",
+                "itemPicUrl": "http://yanxuan.nosdn.127.net/63f6f69a3e62fc058de8d56368938025.jpg",
+                "topicTemplateId": 0,
+                "topicTagId": 0,
+                "commentSwitch": true
+            },
+            {
+                "topicId": 20160914,
+                "title": "解锁清洁新技能",
+                "subtitle": "带你高效优雅做清洁",
+                "priceInfo": 9,
+                "scenePicUrl": "http://yanxuan.nosdn.127.net/ee1bd2b6955e25f5a2d5e46b2b9f6600.jpg",
+                "itemPicUrl": "http://yanxuan.nosdn.127.net/ee1bd2b6955e25f5a2d5e46b2b9f6600.jpg",
+                "topicTemplateId": 0,
+                "topicTagId": 0,
+                "commentSwitch": true
+            },
+            {
+                "topicId": 20160912,
+                "title": "通往青春的门票",
+                "subtitle": "旧时光里的好物荟集",
+                "priceInfo": 4.9,
+                "scenePicUrl": "http://yanxuan.nosdn.127.net/6cbf8ce44558a394a68f221cd649dda0.jpg",
+                "itemPicUrl": "http://yanxuan.nosdn.127.net/6cbf8ce44558a394a68f221cd649dda0.jpg",
+                "topicTemplateId": 0,
+                "topicTagId": 0,
+                "commentSwitch": true
+            },
+            {
+                "topicId": 20160909,
+                "title": "你不知道的「严选冷知识」",
+                "subtitle": "贴心设计，优化生活",
+                "priceInfo": 19.9,
+                "scenePicUrl": "http://yanxuan.nosdn.127.net/cfd7d7a9be05b674a0ffd1ae6740b62e.jpg",
+                "itemPicUrl": "http://yanxuan.nosdn.127.net/cfd7d7a9be05b674a0ffd1ae6740b62e.jpg",
+                "topicTemplateId": 0,
+                "topicTagId": 0,
+                "commentSwitch": true
+            },
+            {
+                "topicId": 20160907,
+                "title": "国礼丝巾|女性的优雅秘诀",
+                "subtitle": "丝巾搭配的N种可能",
+                "priceInfo": 169,
+                "scenePicUrl": "http://yanxuan.nosdn.127.net/637902b4501bef88cd4c0a1532c8c304.jpg",
+                "itemPicUrl": "http://yanxuan.nosdn.127.net/637902b4501bef88cd4c0a1532c8c304.jpg",
+                "topicTemplateId": 0,
+                "topicTagId": 0,
+                "commentSwitch": true
+            },
+            {
+                "topicId": 20160902,
+                "title": "9月篇 本月必买的好物",
+                "subtitle": "初秋必备清单",
+                "priceInfo": 8.9,
+                "scenePicUrl": "http://yanxuan.nosdn.127.net/338b0104837b77ccf72f77e0cd49633c.png",
+                "itemPicUrl": "http://yanxuan.nosdn.127.net/338b0104837b77ccf72f77e0cd49633c.png",
+                "topicTemplateId": 0,
+                "topicTagId": 0,
+                "commentSwitch": true
+            },
+            {
+                "topicId": 20160831,
+                "title": "都是月亮惹的“货”",
+                "subtitle": "中秋美食，低糖低油",
+                "priceInfo": 25,
+                "scenePicUrl": "http://yanxuan.nosdn.127.net/123e387dc927e0c9f01cea3457de18cc.jpg",
+                "itemPicUrl": "http://yanxuan.nosdn.127.net/123e387dc927e0c9f01cea3457de18cc.jpg",
+                "topicTemplateId": 0,
+                "topicTagId": 0,
+                "commentSwitch": true
+            },
+            {
+                "topicId": 20160829,
+                "title": "7分钟自制冰沙",
+                "subtitle": "芒果冰、咖啡雪顶超简单教程",
+                "priceInfo": 49,
+                "scenePicUrl": "http://yanxuan.nosdn.127.net/774441ec65c88202b51f46ae0cd3124d.jpg",
+                "itemPicUrl": "http://yanxuan.nosdn.127.net/774441ec65c88202b51f46ae0cd3124d.jpg",
+                "topicTemplateId": 0,
+                "topicTagId": 0,
+                "commentSwitch": false
+            },
+            {
+                "topicId": 20160826,
+                "title": "为你定制一周早餐list",
+                "subtitle": "快速营养美味组合",
+                "priceInfo": 18,
+                "scenePicUrl": "http://yanxuan.nosdn.127.net/da641839aa84e4cb3c76a5373a791fc1.jpg",
+                "itemPicUrl": "http://yanxuan.nosdn.127.net/da641839aa84e4cb3c76a5373a791fc1.jpg",
+                "topicTemplateId": 0,
+                "topicTagId": 0,
+                "commentSwitch": false
+            }
+        ]
+    }
+}

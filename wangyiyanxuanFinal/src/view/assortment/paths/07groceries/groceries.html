@@ -1,0 +1,27 @@
+<div class="groceries">
+    <div class="banner">
+       <section>
+            <p>解忧，每个烦恼</p>
+            <span></span>
+       </section>
+    </div>
+    <main ng-controller="groctrl">
+        <section ng-repeat="x in pro">
+            <div class="groheader">
+                <p>{{x.category.name}}</p>
+                <span>{{x.category.frontName}}</span>
+            </div>
+            <div class="gromain">
+                <ul class="gromainUl">
+                    <li ng-repeat="y in x.itemList" class="gromainUlLi">
+                      <a href="">
+                        <div class="img"><img src="{{y.primaryPicUrl}}" alt=""></div>
+                        <div class="name">{{y.name}}</div>
+                        <div class="price">￥{{y.retailPrice}}</div>
+                      </a>
+                    </li>
+                </ul>
+            </div>
+        </section>
+    </main>
+</div>

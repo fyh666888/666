@@ -1,0 +1,120 @@
+/*主体内容*/
+.main_spe{
+	widows: 100%;
+    background-color: #f4f4f4;
+} 
+.m_container{
+	width: 100%;
+    overflow: hidden;
+}
+.m_a{
+	width: 100%;
+	display: block;
+	height: 8.3429rem;
+	margin-bottom: .27778rem;
+}
+.m_li{
+	width: 100%;
+	height: 100%;
+	background: #fff;
+}
+.m_pic{
+    width: 100%;
+    height: 5.55556rem;
+    text-align: center;
+    line-height: 5.55556rem;
+ }
+ .m_picImg{
+ 	width: 100%;
+ 	height: 100%;
+ }
+ .m_info{
+    height: 1.76rem;
+    padding: 0rem 0;
+ }
+ .info{
+    text-align: center;
+    margin: .54167rem 0 .38889rem;
+ }
+ .title{
+ 	font-size: .47222rem;
+    line-height: .44444rem;
+    color: #999;
+ }
+ .title_subtitle{
+    margin-top: .22222rem;
+    font-size: .33333rem;
+    line-height: .30556rem;
+    color: #999;
+ }
+.subtitle{
+    font-size: .33333rem;
+    position: relative;
+}
+.price{
+   display: flex;
+   justify-content: center;
+	height: .5rem;
+}
+.price>span{
+	font-size: .36111rem;
+    color: #b4282d;
+}
+.subtitle::before ,.subtitle::after{
+	content: "";
+    position: absolute;
+    width: .33333rem;
+    height: .33333rem;
+    display: inline-block;
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+.subtitle::before {
+  	top: -0.04167rem;
+    left: -0.4rem;
+    background-image: url(//nos.netease.com/yanxuan/5d625a22f54deabe5fa4a80ec5a5000c.png);
+}
+.subtitle:after {
+    bottom: 0.133rem;
+    right: -0.38611rem;
+    background-image: url(http://nos.netease.com/yanxuan/6f0430c2845a90fab3b5cb5045112c13.png);
+}
+/*返回顶部*/
+.goTop{
+	position: fixed;
+    width: 1.13889rem;
+    height: 1.13889rem;
+    right: .31944rem;
+    bottom: 1.38889rem;
+    background-image: url(//yanxuan.nosdn.127.net/hxm/yanxuan-wap/p/20161201/style/img/icon-normal/goToTop-7a19216f77.png);
+    background-size: 1.13889rem 1.13889rem;
+    z-index: 2;
+    display: none;
+}
+/*更多内容,敬请期待*/
+.lastPage{
+	margin-top: .41667rem;
+    text-align: center;
+    font-size: .38889rem;
+    color: rgba(0,0,0,.2);
+    line-height: 1.91667rem;
+    display: none;
+}
+/*上下翻页*/
+.m_page{
+	width: 100%;
+	 line-height: 1.5;
+    color: #333;
+    font-family: PingFangSC-Light,helvetica,'Heiti SC';
+	display: flex;
+	justify-content: space-between;
+}
+.m_page div{
+	flex-basis: 49.7%;
+	background: #FFFFFF;
+    text-align: center;
+    line-height: 1.44444rem;
+    font-size: .38889rem;
+    cursor: pointer;
+  	color: #ccc;
+}

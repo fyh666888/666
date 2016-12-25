@@ -1,0 +1,27 @@
+<div class="cloth">
+    <div class="banner">
+       <section>
+            <p>贴身的，要亲肤</p>
+            <span></span>
+       </section>
+    </div>
+    <main ng-controller="cloctrl">
+        <section ng-repeat="x in pro">
+            <div class="cloheader">
+                <p>{{x.category.name}}</p>
+                <span>{{x.category.frontName}}</span>
+            </div>
+            <div class="clomain">
+                <ul class="clomainUl">
+                    <li ng-repeat="y in x.itemList" class="clomainUlLi">
+                      <a href="">
+                        <div class="img"><img src="{{y.primaryPicUrl}}" alt=""></div>
+                        <div class="name">{{y.name}}</div>
+                        <div class="price">￥{{y.retailPrice}}</div>
+                      </a>
+                    </li>
+                </ul>
+            </div>
+        </section>
+    </main>
+</div>

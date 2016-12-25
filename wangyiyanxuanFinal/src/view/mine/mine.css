@@ -1,0 +1,172 @@
+.mine {
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+}
+
+
+
+
+
+
+
+
+.mine .login {
+	height: 100%;
+	padding-top: 1.6rem;
+	overflow: hidden;
+	margin: 0 .55555rem;
+	background: url(https://nos.netease.com/yanxuan/7f18c9bb08646fd5f14ba56a5791dadd.jpg) no-repeat left bottom;
+	background-size: 100% auto;
+}
+
+.mine .login div.text,.mine .login div.password {
+	border-bottom: 1px solid #eee;
+}
+
+.mine .login input {
+	display: block;
+	width: 100%;
+	height: .6rem;
+	margin: .4rem 0;
+	border: none;
+	outline: none;
+}
+
+.mine .login input[type=text] {
+	position: relative;
+}
+
+.mine .login .xiala {
+	position: absolute;
+	width: 100%;
+}
+.mine .login .xiala li {
+	font-size: .4rem;
+	line-height: 1.3rem;
+	z-index: 9999;
+	background-color: #fff;
+	width: 100%;
+}
+
+
+
+
+
+.mine .login .error {
+	font-size: .4rem;
+	color: red;
+	line-height: 1rem;
+
+}
+
+
+
+
+.mine .login .signin {
+	margin: .8rem 0 .5333333rem;
+}
+
+.mine .login .signin a {
+	width: 100%;
+	height: 100%;
+	display: block;
+	text-align: center;
+	line-height: 1.28rem;
+	color: #cb7a7a;
+	background-color: #b4282d;
+	font-size: .4rem;
+}
+
+
+.mine .login .option {
+	font-size: 16px;
+}
+
+.mine .login .option a {
+	color: #7f7f7f;
+}
+
+.mine .login .option a:last-child {
+	float: right;
+}
+
+
+
+
+
+.mine .login .other {
+	margin-top: 1rem;
+}
+
+.mine .login .other .fengexian {
+	font-size: .3975rem;
+	text-align: center;
+	color: #999;
+	position: relative;
+}
+
+
+.mine .login .other .fengexian::before {
+	content: "其他登陆方式";
+	background-color: #fff;
+	 position: relative;
+	z-index: 2;
+	padding: 0 .25rem;
+}
+.mine .login .other .fengexian::after {
+	content: " ";
+	background-color: #d9d9d9;
+	position: absolute;
+	width: 200%;
+	height: 1px;
+	top: 50%;
+	left: -50%;
+	z-index: 1;
+}
+
+
+
+
+.mine .login .other .qqwb {
+	padding-top: .4rem;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.mine .login .other .qqwb a {
+	display: block;
+	width: 0.853333rem;
+	height: 0.853333rem;
+	margin: 0 .8rem;
+}
+
+.mine .login .other .qqwb a:first-child {
+	background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACUAAAArCAMAAADISrFBAAAAb1BMVEUAAAB/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f395FQx5AAAAJHRSTlMA8vhE3NTDaVcvIcuim5FyKxno5bawfWM+MwgBvaiGTDglDuml8dRjAAABBUlEQVQ4y5XU63aCMBAE4BBDQLmjglKv7bz/MzZS2w2a3Zx+v+fsCUOyamEzVtZsjS2zu+J0Fch5Ew7lCXw6C4UavLoEJuHd27Q7Qo4vKYuQdBlaI2y1SO2YVOGHPsHxWxvBabxUCc7OS6XgbD/oWBqsjq4CeGuhLXL4Sx1B+F5b8G7/nFWDd/4NTRqIV5FBMjxTBpL+J3SD7EpnF5RzqocsmVzogJjcpSrE7F3qCzF6on8o/qUGcZf5ymvpC+fLXwD1CF4zAKky0KoVz5TAqEcdHXjto1Bla9fGCQ67T4bCex7xdVLxtftS6WWTE7+XyGofSNnrYlbec81nyt8TOgnRzz3xDcuEnUE5oMebAAAAAElFTkSuQmCC) no-repeat 50% 50%;
+	background-size: 0.5rem auto;
+}
+
+.mine .login .other .qqwb a:last-child {
+	background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAnCAMAAAB+DzuWAAAAeFBMVEUAAAB/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f38xPerMAAAAJ3RSTlMA+QjLFeDS5Cno2riZHbGTOvHtfWxBMMWfjGVaIw5fVE1Ip3S/w4NvTebzAAACI0lEQVQ4y42U2baCMAxFw0xBZhFFAXHK///h7ZTWqsvrfoGGpmlPT4B/OJURohdvzj78Ro6aZPwt5Y6GoYAfqDM23GJPFUnhV/xjIDLYxxrhseuW9/1uRZUB3jgOKIhDINJtN4vRKjJGcFky1FQUKuT+NxOvwZ+RU7oo0RCZU6txwDPEOc5gWVu0JEBUceCJGgBH9SAe+Ezm6HDjkQJ8nhgb4S7osBdybYaIBYeCv/KpM0DMXULzS3SpFhNpUnnhHYAoBIoLfqGUa18BBpOwwXccxbhlawBGYmzxKzHAensAnPh7LqX2vidc6M5RbgymzH5r8m6p01NaHw+DCS6gOTT5JB70wbus/rP610grVrhN6JH0xZurr/pbuaOQVSjpKTA9ldklqLjawmqRIFRrznnLddybFdNGZ3QUGZV1JjnoI3PTVGamCK1RyuOmqnvQYG0ZvQQS2y475z5q0tJcn8Kz5Uj56q79SjZwWkpel7lIr9yzTM2JXxICPW5FMp2ApQAhy5wJe51wePoXNqTXSDOsg/z2RaXRDHrEFUD1um3364sDwU/ogD7D0je9fQdHudb6ZqHlxB0leaKdclJCMO1LMg4J3UjVOySCwvnzeAs8U4nQVrZSrqbPymbUuW0PLqMnZsltTfW5D5XtD+S7WwGvnOTKUbWG2uF9F6AmmeETfa57NIvjrEVDtiXbvlehRS1s08NXwvOjjJk8ZpZXYwof+ANu4XkA+Z7RTwAAAABJRU5ErkJggg==) no-repeat 50% 50%;
+	background-size: 0.66666rem auto;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.mine .mineSignIn {
+	width: 100%;
+	height: 100%;
+}

@@ -1,0 +1,27 @@
+<div class="accessories">
+    <div class="banner">
+       <section>
+            <p>配角，亦是主角</p>
+            <span></span>
+       </section>
+    </div>
+    <main ng-controller="accctrl">
+        <section ng-repeat="x in pro">
+            <div class="accheader">
+                <p>{{x.category.name}}</p>
+                <span>{{x.category.frontName}}</span>
+            </div>
+            <div class="accmain">
+                <ul class="accmainUl">
+                    <li ng-repeat="y in x.itemList" class="accmainUlLi">
+                      <a href="">
+                        <div class="img"><img src="{{y.primaryPicUrl}}" alt=""></div>
+                        <div class="name">{{y.name}}</div>
+                        <div class="price">￥{{y.retailPrice}}</div>
+                      </a>
+                    </li>
+                </ul>
+            </div>
+        </section>
+    </main>
+</div>

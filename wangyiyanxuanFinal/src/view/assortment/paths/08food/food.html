@@ -1,0 +1,27 @@
+<div class="food">
+    <div class="banner">
+       <section>
+            <p>好吃，无添加</p>
+            <span></span>
+       </section>
+    </div>
+    <main ng-controller="fooctrl">
+        <section ng-repeat="x in pro">
+            <div class="fooheader">
+                <p>{{x.category.name}}</p>
+                <span>{{x.category.frontName}}</span>
+            </div>
+            <div class="foomain">
+                <ul class="foomainUl">
+                    <li ng-repeat="y in x.itemList" class="foomainUlLi">
+                      <a href="">
+                        <div class="img"><img src="{{y.primaryPicUrl}}" alt=""></div>
+                        <div class="name">{{y.name}}</div>
+                        <div class="price">￥{{y.retailPrice}}</div>
+                      </a>
+                    </li>
+                </ul>
+            </div>
+        </section>
+    </main>
+</div>

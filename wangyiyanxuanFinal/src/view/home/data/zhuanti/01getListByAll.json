@@ -1,0 +1,233 @@
+{
+    "code": "200",
+    "data": {
+        "pagination": {
+            "page": 1,
+            "size": 20,
+            "totalPage": 7,
+            "total": 125
+        },
+        "result": [
+            {
+                "topicId": 20161212,
+                "title": "现在开始，做个行动派",
+                "subtitle": "买齐2017提高效率文具，拖延症BYE",
+                "priceInfo": 4.9,
+                "scenePicUrl": "http://yanxuan.nosdn.127.net/44f612d2436e71ae484eadb948985bb5.jpg",
+                "itemPicUrl": "http://yanxuan.nosdn.127.net/44f612d2436e71ae484eadb948985bb5.jpg",
+                "topicTemplateId": 0,
+                "topicTagId": 0,
+                "commentSwitch": true
+            },
+            {
+                "topicId": 20161208,
+                "title": "用过就无法替代的羊绒围巾",
+                "subtitle": "100%纯正珍贵羊绒",
+                "priceInfo": 499,
+                "scenePicUrl": "http://yanxuan.nosdn.127.net/e4043c49e6cb029c700394f80a897538.jpg",
+                "itemPicUrl": "http://yanxuan.nosdn.127.net/e4043c49e6cb029c700394f80a897538.jpg",
+                "topicTemplateId": 0,
+                "topicTagId": 0,
+                "commentSwitch": true
+            },
+            {
+                "topicId": 20161207,
+                "title": "严选年终大赏之畅销榜",
+                "subtitle": "脍炙人口的爆款云集",
+                "priceInfo": 7.9,
+                "scenePicUrl": "http://yanxuan.nosdn.127.net/2422f6431d01ffaeb9f5b57f1caa23f4.jpg",
+                "itemPicUrl": "http://yanxuan.nosdn.127.net/2422f6431d01ffaeb9f5b57f1caa23f4.jpg",
+                "topicTemplateId": 0,
+                "topicTagId": 0,
+                "commentSwitch": true
+            },
+            {
+                "topicId": 20161206,
+                "title": "严选年终大赏之性价比榜",
+                "subtitle": "超值性价比好物荟集",
+                "priceInfo": 9.9,
+                "scenePicUrl": "http://yanxuan.nosdn.127.net/beef44d17877e54f9ed04697af305375.jpg",
+                "itemPicUrl": "http://yanxuan.nosdn.127.net/beef44d17877e54f9ed04697af305375.jpg",
+                "topicTemplateId": 0,
+                "topicTagId": 0,
+                "commentSwitch": true
+            },
+            {
+                "topicId": 20161205,
+                "title": "本年度「最好看」的一期专题",
+                "subtitle": "严选高颜值模特好物",
+                "priceInfo": 19,
+                "scenePicUrl": "http://yanxuan.nosdn.127.net/8888c8b7bc893d77b34ae18b0ac2076a.jpg",
+                "itemPicUrl": "http://yanxuan.nosdn.127.net/8888c8b7bc893d77b34ae18b0ac2076a.jpg",
+                "topicTemplateId": 0,
+                "topicTagId": 0,
+                "commentSwitch": true
+            },
+            {
+                "topicId": 20161201,
+                "title": "高颜值好物，晒出生活好品味",
+                "subtitle": "教你像ins达人一样拍美食",
+                "priceInfo": 14.9,
+                "scenePicUrl": "http://yanxuan.nosdn.127.net/e0519947acd3413d922d214e51ac6123.jpg",
+                "itemPicUrl": "http://yanxuan.nosdn.127.net/e0519947acd3413d922d214e51ac6123.jpg",
+                "topicTemplateId": 0,
+                "topicTagId": 0,
+                "commentSwitch": true
+            },
+            {
+                "topicId": 20161129,
+                "title": "12月篇 本月必买的好物",
+                "subtitle": "暖冬御寒超全指南",
+                "priceInfo": 19.9,
+                "scenePicUrl": "http://yanxuan.nosdn.127.net/50a435a5481998a5e0d29827d80f9ef1.jpg",
+                "itemPicUrl": "http://yanxuan.nosdn.127.net/50a435a5481998a5e0d29827d80f9ef1.jpg",
+                "topicTemplateId": 0,
+                "topicTagId": 0,
+                "commentSwitch": true
+            },
+            {
+                "topicId": 20161125,
+                "title": "治愈冬日选择综合症",
+                "subtitle": "你不知道的严选冷知识",
+                "priceInfo": 99,
+                "scenePicUrl": "http://yanxuan.nosdn.127.net/3a3682329836ec52b80879b2aa5fcb96.jpg",
+                "itemPicUrl": "http://yanxuan.nosdn.127.net/3a3682329836ec52b80879b2aa5fcb96.jpg",
+                "topicTemplateId": 0,
+                "topicTagId": 0,
+                "commentSwitch": true
+            },
+            {
+                "topicId": 20161123,
+                "title": "聪明爸妈の育儿进阶指南",
+                "subtitle": "宝贝寒冬保暖计划",
+                "priceInfo": 15,
+                "scenePicUrl": "http://yanxuan.nosdn.127.net/971ad6437dd553a772065f8b90275bcb.jpg",
+                "itemPicUrl": "http://yanxuan.nosdn.127.net/971ad6437dd553a772065f8b90275bcb.jpg",
+                "topicTemplateId": 0,
+                "topicTagId": 0,
+                "commentSwitch": true
+            },
+            {
+                "topicId": 20161122,
+                "title": "严选Lofter设计票选",
+                "subtitle": "将中华风物融入优雅生活",
+                "priceInfo": 0,
+                "scenePicUrl": "http://yanxuan.nosdn.127.net/98280e92a9e7d373cf0f9d6ed0198dbb.jpg",
+                "itemPicUrl": "http://yanxuan.nosdn.127.net/98280e92a9e7d373cf0f9d6ed0198dbb.jpg",
+                "topicTemplateId": 0,
+                "topicTagId": 0,
+                "commentSwitch": true
+            },
+            {
+                "topicId": 20161121,
+                "title": "没人会拒绝冬日的火锅",
+                "subtitle": "幸福感满满的火锅厨具",
+                "priceInfo": 6.5,
+                "scenePicUrl": "http://yanxuan.nosdn.127.net/77eef5037d9c648713e5f54c605ae26e.jpg",
+                "itemPicUrl": "http://yanxuan.nosdn.127.net/77eef5037d9c648713e5f54c605ae26e.jpg",
+                "topicTemplateId": 0,
+                "topicTagId": 0,
+                "commentSwitch": true
+            },
+            {
+                "topicId": 20161117,
+                "title": "不会穿错の女士搭配指南",
+                "subtitle": "冬季淑女出行篇",
+                "priceInfo": 29,
+                "scenePicUrl": "http://yanxuan.nosdn.127.net/9e1e4b81b19b9001230f08b94c656e7d.jpg",
+                "itemPicUrl": "http://yanxuan.nosdn.127.net/9e1e4b81b19b9001230f08b94c656e7d.jpg",
+                "topicTemplateId": 0,
+                "topicTagId": 0,
+                "commentSwitch": true
+            },
+            {
+                "topicId": 20161115,
+                "title": "不会穿错の男士搭配指南",
+                "subtitle": "冬季绅士出行篇",
+                "priceInfo": 29,
+                "scenePicUrl": "http://yanxuan.nosdn.127.net/11e42cb1aa0a5779a407513216ff3343.jpg",
+                "itemPicUrl": "http://yanxuan.nosdn.127.net/11e42cb1aa0a5779a407513216ff3343.jpg",
+                "topicTemplateId": 0,
+                "topicTagId": 0,
+                "commentSwitch": true
+            },
+            {
+                "topicId": 20161112,
+                "title": "好毯子，怎能不是澳洲纯羊毛",
+                "subtitle": "AB面牛仔蓝美式羊毛盖毯",
+                "priceInfo": 199,
+                "scenePicUrl": "http://yanxuan.nosdn.127.net/e4cb10f973c09fa2b7010197d1c2a495.jpg",
+                "itemPicUrl": "http://yanxuan.nosdn.127.net/e4cb10f973c09fa2b7010197d1c2a495.jpg",
+                "topicTemplateId": 0,
+                "topicTagId": 0,
+                "commentSwitch": true
+            },
+            {
+                "topicId": 20161108,
+                "title": "严选原木家具新品首发",
+                "subtitle": "找到生活最初的模样",
+                "priceInfo": 59,
+                "scenePicUrl": "http://yanxuan.nosdn.127.net/6daddf2b2a24da8e327cbca7af9e1961.jpg",
+                "itemPicUrl": "http://yanxuan.nosdn.127.net/6daddf2b2a24da8e327cbca7af9e1961.jpg",
+                "topicTemplateId": 0,
+                "topicTagId": 0,
+                "commentSwitch": true
+            },
+            {
+                "topicId": 20161107,
+                "title": "“南部铁器”升级版炒锅",
+                "subtitle": "柳宗理品牌制造商直供",
+                "priceInfo": 49,
+                "scenePicUrl": "http://yanxuan.nosdn.127.net/aaf4f97e5a5ea794b482a2af8a1950aa.jpg",
+                "itemPicUrl": "http://yanxuan.nosdn.127.net/aaf4f97e5a5ea794b482a2af8a1950aa.jpg",
+                "topicTemplateId": 0,
+                "topicTagId": 0,
+                "commentSwitch": true
+            },
+            {
+                "topicId": 20161104,
+                "title": "11月篇 本月必买的好物",
+                "subtitle": "双11买买买指南",
+                "priceInfo": 9.9,
+                "scenePicUrl": "http://yanxuan.nosdn.127.net/a2b6dc3c2787ec7674a3eb7e1699ebc0.jpg",
+                "itemPicUrl": "http://yanxuan.nosdn.127.net/a2b6dc3c2787ec7674a3eb7e1699ebc0.jpg",
+                "topicTemplateId": 0,
+                "topicTagId": 0,
+                "commentSwitch": true
+            },
+            {
+                "topicId": 20161024,
+                "title": "养猫和养狗的区别",
+                "subtitle": "铲屎官上任必买手册",
+                "priceInfo": 9.9,
+                "scenePicUrl": "http://yanxuan.nosdn.127.net/22cce5e354d6b4738475fd6c83b72912.jpg",
+                "itemPicUrl": "http://yanxuan.nosdn.127.net/22cce5e354d6b4738475fd6c83b72912.jpg",
+                "topicTemplateId": 0,
+                "topicTagId": 0,
+                "commentSwitch": true
+            },
+            {
+                "topicId": 20161102,
+                "title": "享受五星级睡眠",
+                "subtitle": "双层立衬工艺，杜绝热量流失",
+                "priceInfo": 1999,
+                "scenePicUrl": "http://yanxuan.nosdn.127.net/ce344cc83005ac9252c95ec760dcd69b.jpg",
+                "itemPicUrl": "http://yanxuan.nosdn.127.net/ce344cc83005ac9252c95ec760dcd69b.jpg",
+                "topicTemplateId": 0,
+                "topicTagId": 0,
+                "commentSwitch": true
+            },
+            {
+                "topicId": 20161028,
+                "title": "跟着内行人，做生活的行家",
+                "subtitle": "严选3件生活美学——大牌专场",
+                "priceInfo": 15,
+                "scenePicUrl": "http://yanxuan.nosdn.127.net/e7a54dddb09e546e1d4dd8e821b19902.jpg",
+                "itemPicUrl": "http://yanxuan.nosdn.127.net/e7a54dddb09e546e1d4dd8e821b19902.jpg",
+                "topicTemplateId": 0,
+                "topicTagId": 0,
+                "commentSwitch": true
+            }
+        ]
+    }
+}

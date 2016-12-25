@@ -1,0 +1,123 @@
+    <link rel="stylesheet" href="src/view/home/css/swiper.css">
+    <div class="container" my-touchmove = "backTop()" ng-controller="test">
+        <div class="firstSwiper" id="top">
+         <div class="swiper-container swiper1" ng-controller="ctrl" >
+            <div class="swiper-wrapper" >
+               <div class="swiper-slide" ng-repeat="x in arr">
+                    <img ng-src="{{x.picUrl}}" alt="" >
+                </div>
+            </div>
+             <div class="swiper-pagination"></div>
+        </div>
+    </div>
+    <!-- nav -->
+    <nav>
+        <section class="nav-container">
+            <a class="nav-container-box" ui-sref="assortment.furnshing">
+                <img src="src/view/home/images/sofa.png" alt="">
+                <span>居家</span>
+            </a>
+              <a class="nav-container-box" ui-sref="assortment.kitchen">
+                <img src="src/view/home/images/cookie.png" alt="">
+                <span>餐厨</span>
+            </a>
+              <a class="nav-container-box" ui-sref="assortment.accessories">
+                <img src="src/view/home/images/bag.png" alt="">
+                <span>配件</span>
+            </a>
+              <a class="nav-container-box" ui-sref="assortment.cloth">
+                <img src="src/view/home/images/yijia.png" >
+                <span>服装</span>
+            </a>
+              <a class="nav-container-box" ui-sref="assortment.other">
+                <img src="src/view/home/images/circle.png" >
+                <span>更多</span>
+            </a>
+        </section>
+    </nav>
+    
+    <!-- 测试 -->
+   
+
+    <section class="pinpai">
+        <section class="pinpaiTop">
+            <a ui-sref="zhigong">品牌制造商直供</a>
+            <div ui-view></div>
+        </section>
+        <section class="pinpaiBottom">
+            <section class="pinpaiBottomLeft">
+               <section class="pinpaiBottomLeftTop">
+                   <img src="src/view/home/images/shoe.jpg" alt="">
+               </section>
+                <section class="pinpaiBottomLeftBottom">
+                   <img src="src/view/home/images/wazi.jpg" alt="">
+                   
+               </section>
+            </section>
+            <section class="pinpaiBottomRight">
+                <img src="src/view/home/images/shuibei.jpg" alt="">
+            </section>
+        </section>
+    </section>
+    <!-- 新品 -->
+    <section class="xinpin" ng-controller="xinpinCtrl">
+        <section class="pinpaiTop">
+            <a href="">周一周四•新品首发</a>  
+        </section>
+        <section class="xinpinBottom">
+            <section ng-repeat="x in xinpinArr" class="xinpinList">
+                <img ng-src="{{x.listPicUrl}}" alt="">
+                <p class="xinpinName">{{x.name}}</p>
+                <p class="xinpinPrice">{{x.retailPrice | currency:"￥"}}</p>
+            </section>
+        </section>
+    </section>
+
+    <!-- 人气推荐 -->
+    <section class="renqi" ng-controller="renqiCtrl">
+        <section class="pinpaiTop">
+            <a href="">人气推荐</a>  
+        </section>
+        <section class="renqiBottom">
+            <section class="renqiList" ng-repeat="x in popularArr">
+                <img ng-src="{{x.listPicUrl}}" alt="">
+                <p class="popularName">{{x.name}}</p>
+                <p class="popularIntroduce">{{x.simpleDesc}}</p>
+                <p class="popularPrice">{{x.retailPrice | currency:"￥"}}</p>
+                <p class="colorNum">{{x.colorNum}}色可选</p>
+            </section>
+        </section>
+    </section>
+
+    <!-- 当具有多个swiper时，在引用的时候，加上父元素即可 -->
+    <!-- 专题精选 -->
+    <section class="jingxuan" ng-controller="jingxuanCtrl">
+         <section class="pinpaiTop">
+            <a href="">专题精选</a>  
+        </section>
+         <div class="swiper-container">
+                <div class="swiper-wrapper" >
+                   <div class="swiper-slide" ng-repeat="x in zhuantiArr">
+                        <img ng-src="{{x.itemPicUrl}}" alt="" class="jingxuanImg">
+                        <p class="jingxuanTitle">{{x.title}}<span class="jingxuanPrice">{{x.priceInfo | currency:"￥"}}元起</span></p>
+                        <p class="jingxuanSubtitle">{{x.subtitle}}</p>
+                    </div>
+                </div>
+             <!-- <div class="swiper-pagination"></div> -->
+         </div>
+    </section>
+    <!-- 具体分类 -->
+   <section class="cateList" ng-controller="cateListCtrl">
+       <section ng-repeat="x in cateListArr" class="cateHome">
+            <section class="cateTop"><a href="">{{x.name}}好物</a></section>
+            <section class="cateBottom">
+                <section class="cateList" ng-repeat="y in x.itemList">
+                    <img ng-src="{{y.listPicUrl}}" alt="">
+                    <p class="cateListName">{{y.name}}</p>
+                    <p class="cateListPrice">{{y.retailPrice | currency:"￥"}}</p>
+                </section>
+            </section>
+       </section>
+            <span class="backTop" ng-click = "backtoTop()"></span>
+   </section>
+    </div>
