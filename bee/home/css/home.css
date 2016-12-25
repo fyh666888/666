@@ -1,0 +1,513 @@
+/*头部*/
+html{
+	background: #efefef;
+}
+
+#header{
+	width: 100%;
+	height: 2.3rem;
+	background: #ffd600;
+	position: fixed;
+	z-index: 10;
+	top: 0;
+	/*position: relative;*/
+}
+.sys,.sous{
+	width: 1.5rem;
+	height: 100%;
+	position: relative;
+}
+.sys .up{
+	background: url('../images/a.png') no-repeat;
+	background-size: 100%;
+	width: 1rem;
+	height: 1rem;
+	position: absolute;
+	top: 0.35rem;
+	left: 0.35rem;
+}
+.sys .down{
+	font-size:0.4rem;
+	height: 0.5rem;
+	width: 1.875rem;
+	-webkit-transform:scale(0.8);
+	position: absolute;
+    bottom: 0.4rem;
+    left: 0.1rem;
+}
+.sous{
+	position: absolute;
+	top: 0;
+	right: 0;
+}
+.sous .up{
+	background: url('../images/aa.png') no-repeat;
+	width: 1rem;
+	height: 1rem;
+	background-size: 100%;
+	position: absolute;
+	top: 0.35rem;
+	right: 0.35rem;
+}
+.sous .down{
+	font-size:0.4rem;
+	height: 0.5rem;
+	width: 1.875rem;
+	-webkit-transform:scale(0.8);
+	position: absolute;
+    bottom: 0.4rem;
+}
+.address{
+	position: absolute;
+	width: 6rem;
+	height: 2.3rem;
+    top: 0rem;
+    left: 5rem;
+    padding: 0.75rem;
+}
+.address span{
+	width: 80%;
+	font-size: 14px;
+}	
+}
+.address span p{
+}
+.address .down{
+	width: 0;
+	height: 0;
+	border: 0.2rem solid transparent;
+	border-top-color:#000;
+	margin-top: 0.1rem;
+}
+.address p,.address .down,.address .down{
+	float: left;
+}
+/*主体内容*/
+#main{
+	width: 100%;
+	margin-top: 2.3rem;
+	background: #efefef;
+    margin-bottom: 3rem;
+}
+#main .se2 {
+	width: 100%;
+	height: 7.95rem;
+	display: flex;
+	align-items: center;
+	margin-top:0.5rem;
+	border-bottom:0.05rem solid #e9e9e9;
+}
+#main .se2 img{
+	width: 3.45rem;
+	height: 2.35rem;
+}
+#main .menu{
+	display: flex;
+	flex-wrap: wrap;
+}
+#main .menu .menu_l{
+	flex-basis: 25%;
+	margin:0.35rem 0;
+}
+#main .menu .menu_l span{
+	display: flex;
+	justify-content: center;
+}
+#main .menu .menu_l p{
+	margin-top: 0.05rem;
+	font-size: 0.6rem;
+}
+.toutiao li:last-child{
+	display: none;
+}
+.toutiao li:nth-child(4){
+	display: none;
+}
+.se3{
+	width: 100%;
+	height: 6.95rem;
+}
+#main section{
+	margin-top: 0.5rem;
+	background: #FFFFFF;
+}
+.toutiao {
+	width: 100%;
+	height: 6.95rem;
+	display: flex;
+	background: #efefef;
+	justify-content: space-between;
+}
+.toutiao li{
+	flex-basis: 33%;
+}
+.toutiao li img{
+	width: 100%;
+	height: 6.95rem;
+}
+.tejia{
+	width: 100%;
+	height: 6.45rem;
+	display: flex;
+	flex-wrap: wrap;
+	align-content: space-between;
+	background: #f2f2f2;
+}
+.tejia li{
+	flex-basis: 50%;
+	height: 3.15rem;
+	border-top: 0.05rem solid #e6e6e6;
+}
+.tejia li:first-child{
+	border-top: none;
+}
+.tejia li:nth-child(2){
+	border-top: none;
+}
+.tejia li:nth-child(2n-1){
+	border-right:0.05rem solid #e3e3e3 ;
+}
+.tejia li span{
+	width: 100%;
+}
+.tejia li span img{
+	width: 100%;
+}
+.tejia li:not(.tejia li:nth-child(1))){
+	margin-top: 0.2rem;
+}
+.se5{
+	width: 100%;
+	height: 15.7rem;
+}
+.se5 .title{
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+}
+.se5 .title .left_s2{
+	height: 0.65rem;
+	font-size: 0.65rem;
+	color: #f48a38;
+	width: 2.75rem;
+	float: left;
+}
+.se5 .title .right{
+	width: 2.45rem;
+	height: 1.95rem;
+	display: flex;
+	align-items: center;
+}
+.se5 .title .right .right_s1{
+	font-size: 0.55rem;
+	width: 1.375rem;
+	-webkit-transform: scale(0.8);
+	color: #a9a9a9;
+}
+.se5 .title .right .right_s2{
+	background: url('../images/xg.png') no-repeat;
+	background-size: 80%;
+	width: 0.3rem;
+	height: 0.55rem;
+	margin-left: 0.3ren;
+}
+.se5 .title .left::before{
+	content: "";
+	display: block;
+	width: 0.35rem;
+	height: 0.55rem;
+	background: #f38631;
+	float: left;
+	border: 1px solid #f1710d;
+	margin:0 0.3rem;
+}
+.se5 .title .left{
+	display: flex;
+	align-items: center;
+}
+.se5 .title_img{
+	width: 100%;
+	height: 3.85rem;
+	display: flex;
+	justify-content: center;
+}
+.se5 .title_img img{
+	width: 15.1rem;
+	height: 100%;
+}
+.se5 ul{
+	display: flex;
+	width: 100%;
+	height: 9rem;
+	margin-top: 0.5rem;
+}
+.se5 ul li{
+	flex-basis: 33.3333%;
+	text-align: center;
+	border-right: 1px solid #eaeaea;
+}
+.se5 ul li .ul_img{
+	width: 5rem;
+	height: 5rem;
+}
+.se5 ul li .ul_p1{
+	font-size: 0.6rem;
+	color: #6a7076;
+	width: 5.25rem;
+	white-space:nowrap; 
+	text-overflow:ellipsis; 
+	-o-text-overflow:ellipsis; 
+	overflow: hidden; 
+}
+.se5 ul li .ul_div_sleft{
+	width: 1.45rem;
+	height: 0.7rem;
+	border: 1px solid #ff5454;
+	border-radius: 0.15rem;
+}
+.se5 ul li .ul_div{
+	font-size: 0.45rem;
+	overflow: hidden;
+	-webkit-transform: scale(0.8);
+	color: #ff2222;
+	margin-top: 0.35rem;
+}
+.se5 ul li .ul_div_sright{
+	width: 2.45rem;
+	height: 0.7rem;
+	border-radius: 0.15rem;
+	color: #ffa4a4;
+	margin-left: 0.2rem;
+    background: red;
+}
+.se5 ul li .ul_div span{
+	float: left;
+	line-height: 0.7rem;
+}
+.se5 ul li .ul_p2{
+	width: 5.25rem;
+	height: 0.55rem;
+	font-size: 0.55rem;
+	text-align: left;
+	-webkit-transform: scale(0.8);
+	margin-top: 0.3rem;
+}
+.se5 ul li .ul_p3{
+	width: 3rem;
+	height: 0.5rem;
+	-webkit-transform: scale(0.8);
+	font-size: 0.5rem;
+	display: flex;
+	justify-content: left;
+	margin-left: 0.2rem;
+}
+.se5 ul li .ul_p3 span{
+	color: #ff5329;
+}
+.se5 ul li .ul_p3 s{
+	margin-left: 0.25rem;
+	color: #a4a4a4;
+}
+.se5 ul li{
+	position: relative;
+}
+.se5 ul li .span{
+	width: 1.5rem;
+	height: 1.5rem;
+	border: 0.1rem solid #eaeaea;
+	border-radius: 50%;
+	background: url('../images/aaa.png') no-repeat center;
+	position: absolute;
+	bottom: 0;
+	right: 0.2rem;
+}
+#header1{
+	width: 100%;
+	height:2.7rem;
+	border-bottom: 0.05rem solid #e0e0e0;
+	display: flex;
+	background: #f9fafd;
+	position: fixed;
+	top: 0;
+	z-index: 111;
+}
+#header1 .left{
+	height: 100%;
+	width: 2.1rem;
+	background: url(../images/ic1.png);
+	background-size: cover;
+}
+#header1 .mid{
+	flex-basis: 100%;
+	font-size: 0.7rem;
+	text-align: center;
+	line-height: 2.7rem;
+	font-weight: 600;
+}
+#header1 .right{
+	height: 100%;
+	width: 2.1rem;
+	background: url(../images/ic2.png);
+	background-size: cover;
+	
+}
+#main1 .baner{
+	width: 100%;
+	height: 6.3rem;
+	margin-top: 2.7rem;
+	background: url(http://img01.bqstatic.com//upload/activity/2016092318241233.jpg);
+	background-size: cover;
+}
+#main1 .time{
+	width: 100%;
+	height: 4.2rem;
+	display: flex;
+	justify-content: space-between;
+}
+#main1 .time li{
+	flex-basis: 24.76%;
+	background: #272c2a;
+	position: relative;
+}
+#main1 .time li .icon{
+	width: 0.7rem;
+	height: 0.7rem;
+	background: url(../images/www.png);
+	background-position: right center; 
+	background-size: cover;
+}
+#main1 .time li div{
+	text-align: center;
+	font-size: 0.6rem;
+	color: #FFFFFF;
+	height: 1.2rem;
+}
+#main1 .time li .icon{
+   margin-left: 1.5rem;
+}
+#main1 .qg{
+	width: 100%;
+	height:2rem;
+	position: relative;
+	background: #f2f2f2;
+}
+#main1 .qg .se1{
+	width: 6.4rem;
+	height: 100%;
+	background: #fdd000;
+	position: relative;
+	font-size: 0.7rem;
+}
+#main1 .qg .se1::after{
+	content: "";
+	width: 0;
+	height: 0;
+	position: absolute;
+	border: 1rem solid transparent;
+	border-left:10px solid  #fdd000;
+	top: 0;
+	left: 6.4rem;
+}
+#main1 .qg .se1{
+	padding-top: 0.2rem;
+}
+#main1 .qg p{
+	width: 5rem;
+	height: 0.6rem;
+	margin-left: 0.5rem;
+}
+#main1 .qg .down{
+	margin-top: 0.25rem;
+	font-size: 0.8rem;
+}
+#main1 .qg  .se2{
+	width: 5.7rem;
+	height: 1.4rem;
+	background: #272c2a;
+	position: absolute;
+	top: 0.3rem;
+	right: 0.4rem;
+	font-size: 0.7rem;
+	border-radius: 0.7rem;
+	text-align: center;
+	line-height: 1.4rem;
+	color: #FFFFFF;
+}
+#shop{
+	width: 2.7rem;
+	height: 2.7rem;
+	background: #ffd600;
+	border:3px solid #fff;
+	border-radius: 50%;
+	position:fixed;
+	right: 0.4rem;
+	bottom: 0.4rem;
+}
+#shop span{
+	width: 100%;
+	height: 100%;
+	background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAG4AAABuCAMAAADxhdbJAAAABGdBTUEAALGPC/xhBQAAAAFzUkdCAK7OHOkAAAHFUExURUxpcf///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////74HNBAAAACWdFJOUwCwEOygcNBggJAEwJwFJFDw8qR+MBv+4ItLAuT9A8zfQNxUKAaOPSxmRA72+/UBjOpVM1P5a+jDZKgmtTe+F0rYZaLxDwmIXAdXbCB0cdHpjWhuuazPeK0MxdccW28+98djVnmWl0Lte11BPy+yE/xyttmYHvTORQsSxIYiMRmn83bUgrgNdSmULoHbNJIVZ5tZ3vq/61CyaTYAAAKJSURBVGje7dlnVxNBFAbgJQklMT3BJCIkKEWqghRpIh3B3pVi7733DvZe9vc6m03xgwve927m6Dnzfp6T52x25u7MHU1TUVFRUVFRUeGkzanreii5ED/jk8EZmhlnZKzwXIuez3t/wbm5jt+8LZ7CP98qx/3euqFwyPDmpc0ZR5XgZuXN0S+CeyWPiwtubymSwVGA26bDafpM59bojGwkc+0croTMLXK4lfR/s4LBjdC5HwxugM6dZnBxOredwbXRuQSDe0Ln/LhWDZQVTzPMeZGqeQPmJhDuMszNINwuVEtCn6B1KOeCuAsoVwpx5Sg3jX3Qn2FaDNw/7Jf56jStB+M2gdxLjEM33+chrQLd+32AuDDKNUp9deB2ZS3MDQBaF75xfwNwPTi3B+B241yD1Fen3aJrGzinrttkbh+Hu0PmpjhcmMzVc7gIVfvZyuHIZ8qDrAP6WypXzOImVxO5KK//8I2mdbfyuD5jx//XLY5ADbO7Uiu4cXnNHGMnXSSPuyi4I/K4zYJr9sjzgsLrPySNO5bpywSDsViyRGSFSJGIKx2v28x4WTrn7jI5F3GdJ3jcEJFbz+wVn+yuDhJK2VZ7GtRXpv3R9lQqlQgEApkaMlWczvOyTB663bVf1VXMP5ax172Vy1SfS5/swkZPtej62cgSd1ANxqXDg357LjBemFP8uuUDTpgL5fugHZw3u6SuWTVEmrKXYg6+du9o7gbKYsSB3Bo/zuce5yvG5J9HPM0N+Mjn6vPdeovv3rBdBdOIbyT7Y1UWIzpz3Akbpsq75apv485sT7jGBs7XZ/6Y23JEXcg82kVtWXiVnTuudhxe6hbp0bBT77pZrsqvioqKioqKyn+dX7jWs9PYCXZZAAAAAElFTkSuQmCC) no-repeat center center;
+	background-size: 80%;
+}
+#cn{
+	width: 100%;
+	background: #efefef;
+}
+#cn .miaosha{
+	width: 100%;
+}
+#cn .miaosha li{
+	display: flex;
+	justify-content: space-between;
+	margin-top: 0.3rem;
+}
+#cn .miaosha li div{
+	flex-basis: 49.8%;
+	background: #FFFFFF;
+}
+#cn .miaosha li img{
+	width: 100%;
+}
+#cn .miaosha li .right{
+	padding-left: 0.75rem;
+}
+#cn .miaosha li .pp{
+	font-size: 0.7rem;
+	white-space: nowrap;
+	text-overflow: ellipsis;
+	overflow: hidden;
+	padding-top: 1rem;
+	color: #333333;
+}
+#cn .miaosha li .con{
+	font-size: 0.7rem;
+	margin-top: 0.8rem;
+	color: #333333;
+}
+#cn .miaosha li .price{
+	font-size: 0.6rem;
+	color: #FF0000;
+	margin-top: 1rem;
+}
+#cn .miaosha li .price em{
+	display: inline;
+	font-size: 0.8rem;
+	font-weight:600 ;
+
+}
+#cn .miaosha li .price span{
+	display: inline;
+	color: #979697;
+	
+}
+#cn .miaosha li .qg{
+	width: 5rem;
+	height: 1.8rem;
+	font-size: 0.7rem;
+	border-radius: 0.9rem;
+	text-align: center;
+	line-height: 1.8rem;
+	margin-top: 0.3rem;
+	background: #ff602c;
+	color: #fff;
+}

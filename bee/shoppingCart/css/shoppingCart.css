@@ -1,0 +1,364 @@
+#header{
+	width: 100%;
+	height: 2.75rem;
+	background: #f9fafd;
+	border-bottom: 0.05rem solid #e0e0e0;
+	padding-top: 1rem;
+}
+#header .gouwuche{
+	text-align: center;
+	font-size: 0.7rem;
+	color: #893333;
+	font-weight: 600;
+}
+#main{
+	width: 100%;
+	height: 550px;
+	background: #efefef;
+	position: relative;
+}
+#main .center{
+	width: 7rem;
+	height: 9.1rem;
+	position: absolute;
+	top: 3.3rem;
+	left: 4.6rem;
+}
+#main .center .img{
+	width: 4.75rem;
+	height: 4.75rem;
+	margin-left: 1.2rem;
+}
+#main .center .qin{
+	margin-top: 0.9rem;
+	width: 6.95rem;
+	height: 0.7rem;
+	font-size: 0.7rem;
+	color: #999999;
+}
+#main .center .guang{
+	margin-top: 1.3rem;
+	margin-left: 0.6rem;
+	width: 5.8rem;
+	height: 1.4rem;
+	border: 0.05rem solid #e0e0e0;
+	border-radius: 0.15rem;
+	font-size: 0.7rem;
+	padding-top:0.35rem;
+	padding-left: 1.7rem;
+	color: #999999;
+}
+#main1{
+	width: 100%;
+	height: 100%;
+	background: #efefef;
+	display: none;
+}
+#main1 .address{
+	width: 100%;
+	height: 4.8rem;
+	background: #FFFFFF;
+}
+#main1 .address ul{
+	width: 100%;
+	height: 4.8rem;
+	border: 0.05rem solid #dcdcdc;
+	background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAF4AAAAFCAMAAAD7RatoAAAABGdBTUEAALGPC/xhBQAAAAFzUkdCAK7OHOkAAAHmUExURf////7//8y1u9ysuLjK1KzM27rG1v7+/v/+/7rM1snJydy9w////f/9/tKzud2tuf3//q7O3a3N3MrIyfj//8jIyP3+//7+///+/cvHyN/AxuCwvN6uuvz//8fIyszIxf/+/P/++8rJx/78///9//r8+/n+/7TK2Pv+///8/fj9//f6/7nH1OK9xde2vf/7/MbCw/35+tCxt9urt7LJ17PJ1/j+/v37/MbO0Pr//77DxsPExvv8/svLy8TJzP78/cnKzLfN2v/7+7nP3b7Jz8fHx83NzcXFxfz6+7TDyLDM2OHq77HI1rTG1LLI1bjK2LrN28nJy+jy/MDQ38bQ2cjR2sDO2bzGz7bEz7zFzsTJz7XF1PP6/7TH1cbJzr7I0rHN2bfIz7rL0tu6wc2wtc20uP/2+NyxutestdS3vNaxudSvt921vdbe4MDIys3JytCrs8qvtL7JzbrExeTs7vv///f//8OvsdeyutSzurvJzLfDw93n6NSstLjGye/j48+/wMqtssXNz+Lq7NW6v9C6vcu1uP/6+8u7vtjFyd3O0c7ExcvFxdu+w863vc6/wv/y9djBx8OwtP/4+tvAx8+0u9W2vMmqsODBx+XGzMyts8G4u9+vu+Xh4uTg4fj09b20t97V2CE6nQ4AAAFHSURBVBjTXc5Vd8IwGIDhZN2WrlDoRnEYg2HDYe7u7u7u7u7u7ts/XYDups9JcnKRvOcDn56fEJ6B0cHlnW23QigEAQyDEInRyXBxYW99Lpynt6+0oNxsxS8AgFCrBQAhhG/QRAL313s8odGI8SHmjEzMuGYPb4biFPgDkssZCIA/T8bCJHZ/fi2KE8npqcitdNSxdoifCIX/Q0HIwGzg/f79IMRqNUHgFTS8ubJ6cHRyH8hz09P+uhGmsksbW2E8ZQlV1Y7uDrvMSNMxOI8CGAaaSgBJe1+fnt9EIp9PxBkfc+0+Xt2dHefRNMJ5mSyYRygD2szsZChPoqWmvaW50WaV+/N6PeIA/FnpmX4RCFQqvAUcp7P/8uH29Pr8QqmUSikqOpqiJJg0Mz0nKy1lKoIn39JZ39TQ2tZVK5EYDDodxSkuKvwDixdAJHxLF+0AAAAASUVORK5CYII=);
+     line-height: 1.4rem; 
+    background-repeat: repeat-x;
+    background-position: left top,left bottom;
+    background-size: auto .1rem;
+}
+#main1 .address ul li{
+	height: 0.8rem;
+	width: 100%;
+	font-size: 0.7rem;
+    margin: 0.45rem 0 0.65rem 0;
+}
+#main1 .address ul li span{ 
+	height: 0.8rem;
+	line-height: 0.8rem;
+	color: #333333;
+	float: left;
+}
+#main1 .address ul li .s1{
+	margin-left: 1rem;	
+	width: 3.25rem;
+	float: left;
+}
+#main1 .address ul li .s1 .ss{
+	width: 0.4rem;
+	height: 0.8rem;
+	display: inline-block;
+	visibility: hidden;
+}
+#main1 .address ul li .s1 .ss1{
+	width: 1.4rem;
+	display: inline-block;
+	visibility: hidden;
+}
+#main1 .address ul li .s2{
+	width: 9rem;
+}
+#main1 .address ul li .s4{
+	width: 1.5rem;	
+}
+#main1 .address ul li .s5{
+	width: 0.3rem;
+	height: 0.7rem;
+	background: url(../images/xg.png);
+	background-size: 100%;
+}
+#main1 .shouhuo{
+	width: 100%;
+	height: 9.6rem;
+	background: #FFFFFF;
+	margin-top: 0.3rem;
+	padding-top: 0.3rem;
+	font-size: 0.6rem;
+}
+#main1 .shouhuo li{
+	border-bottom: 0.05rem solid #e0e0e0;
+	height: 3.05rem;
+}
+#main1 .shouhuo li:first-child{
+	height: 3.35rem;
+}
+#main1 .shouhuo .p1{
+	width: 100%;
+	height: 1.6rem ;
+	/*padding-top: 0.15rem;*/
+	padding-left: 0.85rem;
+	position: relative;
+}
+#main1 .shouhuo .p2{
+	width: 100%;
+	height: 0.7rem;
+	margin-top: 0.55rem;
+	padding-left: 0.9rem;
+	color: #999999;
+}
+#main1 .shouhuo .p1 .left{
+	width: 2.9rem;
+	height: 0.75rem;
+	position: absolute;
+	top: 0.3rem;
+	padding-left: 0.4rem;
+	background: url(../images/i.png) no-repeat left;
+	background-size: auto 100%;
+	color: #999999;
+}
+#main1 .shouhuo .p1 .right{
+	width: 4.3rem;
+	height: 1.55rem;
+	border: 0.05rem solid red;
+	float: right;
+	border-radius: 0.75rem;
+	text-align: center;
+	line-height: 1.55rem;
+	color: #e64f1a;
+	margin-right: 0.9rem;
+}
+#main1 .shouhuo li:nth-child(2) {
+	padding-top: 1.2rem;
+	
+}
+#main1 .shouhuo li:nth-child(2) section{
+	width: 100%;
+	height: 0.7rem;
+	font-size: 0.6rem;
+}
+#main1 .shouhuo li:nth-child(2) .left{
+	float: left;
+}
+#main1 .shouhuo li:nth-child(2) .left span{
+	float: left;
+	margin-left: 0.9rem;
+}
+#main1 .shouhuo li:nth-child(2) .left span:first-child{
+	color: #333333;
+}
+#main1 .shouhuo li:nth-child(2) .left span:last-child{
+	color: #e64f1a;
+}
+#main1 .shouhuo li:nth-child(2) .right{
+	float: right;
+	width: 2.7rem;
+	height: 0.7rem;
+}
+#main1 .shouhuo li:nth-child(2) .right span{
+	float: left;
+}
+#main1 .shouhuo li:nth-child(2) .right span:last-child{
+	width: 0.3rem;
+	height: 100%;
+	background: url(../images/xg.png);
+	background-size: 100%;
+	margin-left: 0.2rem;
+}
+#main1 .shouhuo li:last-child section{
+	width: 100%;
+	height: 100%;
+	position: relative;
+}
+#main1 .shouhuo li:last-child section span{
+	width: 2.7rem;
+	height: .7rem;
+	float: left;
+	position: absolute;
+	top: 1.2rem;
+	left: 1.3rem;
+}
+#main1 .shouhuo li:last-child section input{
+	width: 10rem;
+	height: 2rem;
+	float: right;
+	right: 1rem;
+	top: 0.6rem;
+	position: absolute;
+	border-radius:0.25rem;
+	outline: none;
+	border: solid 1px #cecece;
+}
+#main1 .all{
+	width: 100%;
+	height: 3rem;
+	position: relative;
+	font-size: 0.7rem;
+	margin-top: 1rem;
+	background: #FFFFFF;
+    margin-bottom: 2.6rem;
+}
+#main1 .all .left{
+	width: 2.8rem;
+	height: 1rem;
+	position: absolute;
+	top: 1rem;
+	left: 0.9rem;
+	color: #333333;
+	margin-left: 1rem;
+}
+#main1 .all .mid{
+	height: 0.7rem;
+	width: 2rem;
+	position: relative;
+	left: 5.5rem;
+	top: 1.1rem;
+	color: #333333;
+	position: relative;
+}
+#main1 .all .all{
+	position: absolute;
+    top: -2px;
+    left: 15px;
+    width: 1.05rem;
+    height: 1.05rem;
+    border: 1px solid coral;
+    border-radius: 50%;
+}
+#main1 .all .num{
+	height: 0.9rem;
+	width: 2.5rem;
+	font-size: 0.8rem;
+	color: red;
+	position: absolute;
+	top: 0;
+	right: -2.25rem;
+}
+#main1 .all .right{
+	width: 6rem;
+	height: 3rem;
+	line-height: 3rem;
+	text-align: center;
+	background: #ffd600;
+	position: absolute;
+	color: #333333;
+	right: 0;
+	top: 0;
+}
+#main1 .container{
+	width:100%;
+}
+#main1 .container .shop{
+	width: 100%;
+	height:4.85rem;
+	border-bottom: 1px solid #e0e0e0;
+	background: #FFFFFF;
+}
+#main1 .container .shop .left,#main1 .container .shop .right {
+	width: 50%;
+	height: 100%;
+	float: left;
+	position: relative;
+	
+}
+#main1 .container .shop .left img{
+	width: 3.25rem;
+	height: 3.25rem;
+	position: absolute;
+    top: 0.8rem;
+    left: 2.8rem;	
+}
+#main1 .container .shop .left .icon{
+	width: 1.05rem;
+	height: 1.05rem;
+	border: 1px solid coral;
+	border-radius:50% ;
+	position: absolute;
+	top: 1.5rem;
+	left: 0.7rem;
+}
+#main1 .container .shop .right .up{
+	font-size: 0.7rem;
+	margin: 1rem 0;
+	color: #333333;
+ 	white-space:nowrap;
+  	text-overflow:ellipsis;
+   -o-text-overflow:ellipsis;
+    overflow:hidden;
+}
+#main1 .container .shop .right .down{
+	height: 50%;
+}
+#main1 .container .shop .right .down .money{
+	font-size: 0.6rem;
+	float: left;
+	color: #333333;
+}
+#main1 .container .shop .right .down .am{
+	width: 5.6rem;
+	height: 2rem;
+	float: right;
+}
+#main1 .container .shop .right .down span{
+	float: right;
+}
+#main1 .container .shop .right .down .num{
+    width: 1rem;
+    height: 1.6rem;
+    margin-right: 0.1rem;
+    text-align: center;
+    line-height: 1.6rem;
+    font-size: 0.7rem;
+	
+}
+#main1 .container .shop .right .down .add,#main1 .container .shop .right .down .mul{
+	width: 1.6rem;
+	height: 1.6rem;
+	border: 1px solid #ffd2b3;
+	border-radius: 50%;
+	margin-right: 0.2rem;
+	
+}
+#main1 .container .shop .right .down .add{
+	background: url(../images/ri1.png) no-repeat center center;
+}
+#main1 .container .shop .right .down .mul{
+	background: url(../images/le1.png) no-repeat center center;
+}
+.selected{
+	background: url(../images/qq.png);
+}
+#main1 .selected1{
+	background: url(../images/qq.png);
+}

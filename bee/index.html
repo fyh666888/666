@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+        <meta charset="utf-8">
+        <title>爱鲜蜂</title>
+        <link rel="stylesheet" href="./libs/css/reset.css">
+        <style media="screen">
+           #footer{
+		width: 100%;
+		height: 2.5rem;
+		background: #f1d9df;
+		position: fixed;
+		bottom: 0;
+		}
+		.foot{
+			width: 100%;
+			height: 100%;
+			display: flex;
+			align-content: center;
+		}
+		#footer li{
+			flex-grow: 1;
+		}
+		#footer li .icon{
+			width: 1.1rem;
+			height: 1.2rem;
+		}
+		#footer .foot_f1 .left .icon{
+			background: url('images/s1.png') no-repeat;
+			background-size: 100%;
+		}
+		#footer .foot_f2 .left .icon{
+			background: url('images/s2.png') no-repeat;
+			background-size: 100%;
+		}
+		#footer .foot_f3 .left .icon{
+			background: url('images/s5.png') no-repeat;
+			background-size: 100%;
+		
+		}
+		#footer .foot_f4 .left .icon{
+			background: url('images/s3.png') no-repeat;
+			background-size: 100%;
+		}
+		#footer .foot_f5 .left .icon{
+			background: url('images/s4.png') no-repeat;
+			background-size: 100%;
+		
+		}
+		#footer li span{
+			display: flex;
+			height: 1.25rem;
+			justify-content: center;
+			font-size: 0.6rem;
+			align-items: center;
+			color: #a6a6a6;
+		}
+		#div1,#div2{
+			width: 100%;
+			height: 100%;
+		}
+		#div2{
+			display: none;
+		}
+		.swiper-container{
+				width: 16rem;
+				height: 6rem;
+			}
+		.swiper-container img{
+				width: 100%;
+			}
+		#footer .foot_f4 .ooo{
+		    width: 0.8rem;
+		    height: 0.8rem;
+		    line-height: 0.8rem;
+		    background: red;
+		    border-radius: 50%;
+		    position: absolute;
+		    top: 5px;
+		    left: 219px;
+		    color: #FFFF00;
+		    text-align: center;
+		    display: none;
+		}
+        </style>
+    </head>
+    <body>
+	<div id="div1">
+		<!--主体内容-->
+        <div class="container"> </div>
+        <!--尾部-->
+	<div id="footer">
+       <ul class="foot">
+			<li class="foot_f1"><a href="#home"><span class="left"> <div class="icon"></div></span><span class="right">首页</span></a></li>
+			<li class="foot_f2"><a href="#sscs"><span class="left"> <div class="icon"></div></span><span class="right">闪送超市</span></a></li>
+			<li class="foot_f4"><a href="#shoppingCart"><span class="left"> <div class="icon"></div><span class="ooo"></span></span><span class="right">购物车</span></a></li>
+			<li class="foot_f5"><a href="#mine"><span class="left"> <div class="icon"></div></span><span class="right">我的</span></a></li>
+		</ul>
+	</div>
+	</div>
+	<!--秒杀部分-->
+	<div id="div2">
+		<!--头部-->
+		<div id="header1">
+			<section class="left"></section>
+			<section class="mid">疯狂秒杀</section>
+			<section class="right"></section>
+		</div>
+		<!--主体-->
+		<div id="main1">
+			<div class="baner"></div>
+			<ul class="time">
+				<li>
+					<div class="timer">10:00</div>
+					<div class="jieshu">已结束</div>
+					<div class="icon"></div>
+				</li>
+				<li>
+					<div class="timer">10:00</div>
+					<div class="jieshu">已结束</div>
+					<div class="icon"></div>
+				</li>
+				<li>
+					<div class="timer">10:00</div>
+					<div class="jieshu">已结束</div>
+					<div class="icon"></div>
+				</li>
+				<li>
+					<div class="timer">10:00</div>
+					<div class="jieshu">已结束</div>
+					<div class="icon"></div>
+				</li>
+			</ul>
+			<div class="qg">
+				<section class="se1">
+						<p class="up">距离本场结束</p>
+						<p class="down">00:00</p>
+				</section>
+				<section class="se2">
+					<span>查看活动规则</span>
+				</section>
+			</div>
+		</div>
+		<div id="cn"></div>
+		<!--购物车-->
+		<div id="shop"><span></span></div>
+	<script id="data" type="text/html">
+		<ul class="miaosha">
+			<%for(var i=0;i<product.length;i++){%>
+				<li>
+					<!--左侧-->
+					<div class="left"><img src="<%=product[i].app_mimg%>"/></div>
+					<!--右侧-->
+					<div class="right">
+						<p class="pp"><%=product[i].name%></p>
+						<span class="con"><%=product[i].specifics%></span>
+						<div class="price">￥<em><%=product[i].partner_price%></em> <span> / 原价:<%=product[i].market_price%>元</span></div>
+						<%if(product[i].btnText!=undefined){%>
+						<span class="qg"><%=product[i].btnText%></span>
+						<%}%>
+					</div>
+				</li>
+			<%}%>
+		</ul>	
+		</script>
+	</div>
+	
+    </body>
+    <script type="text/javascript">
+    	window.onload = function(){
+	var winW = document.documentElement.clientWidth || document.body.clientWidth;
+	document.documentElement.style.fontSize = winW / 16 + "px";
+	window.onresize = function(){
+	var winW = document.documentElement.clientWidth || document.body.clientWidth;
+	document.documentElement.style.fontSize = winW / 16 + "px";
+	}
+}
+    </script>
+    <script src="./libs/js/requirejs.js" data-main="main.js" charset="utf-8"></script>
+</html>
